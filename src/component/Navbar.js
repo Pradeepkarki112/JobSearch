@@ -10,21 +10,21 @@ export default function NabBar() {
       </div>
 
       <div className="mainDiv flex gap-8 ">
-        <li className=" menuList text-[#676767] hover:text-[#2a68ff] ">Jobs</li>
-        <li className=" menuList text-[#676767] hover:text-[#2a68ff] ">
+        <li className=" menuList text-[#676767] hover:text-[#2a68ff] list-none ">Jobs</li>
+        <li className=" menuList text-[#676767] hover:text-[#2a68ff] list-none">
           Companies
         </li>
-        <li className=" menuList text-[#676767] hover:text-[#2a68ff] ">
+        <li className=" menuList text-[#676767] hover:text-[#2a68ff] list-none">
           About
         </li>
-        <li className=" menuList text-[#676767] hover:text-[#2a68ff] ">
+        <li className=" menuList text-[#676767] hover:text-[#2a68ff] list-none">
           Contact
         </li>
-        <li className=" menuList text-[#676767] hover:text-[#2a68ff] ">Blog</li>
-        <li className=" menuList text-[#676767] hover:text-[#2a68ff] ">
+        <li className=" menuList text-[#676767] hover:text-[#2a68ff] list-none">Blog</li>
+        <li className=" menuList text-[#676767] hover:text-[#2a68ff] list-none">
           Login
         </li>
-        <li className=" menuList text-[#676767] hover:text-[#2a68ff] ">
+        <li className=" menuList text-[#676767] hover:text-[#2a68ff] list-none">
           Register
         </li>
       </div>

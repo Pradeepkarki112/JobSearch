@@ -5,7 +5,7 @@ import Footer from "./component/Footer";
 
 function App() {
   return (
-    <div className="">
+    <div className="w-[85%] m-auto">
       <Navbar />
       <Searchbar />
       <Jobbar />
