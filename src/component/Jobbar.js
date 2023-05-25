@@ -10,7 +10,7 @@ export const Jobbar = () => {
           return (
             <div
               key={id}
-              className="w-[250px] p-[20px] bg-white rounded-[10px] hover:bg-[#2a68ff] shadow-lg shadow-[#f1f4f8]-700 hover:shadow-lg"
+              className="w-64 p-5 bg-white rounded-[10px] hover:bg-[#2a68ff] shadow-lg shadow-[#f1f4f8]-700 hover:shadow-lg"
             >
               <span className="flex justify-between gap-4 items-center">
                 <h1 className="font-semibold text-[#252b36] group-hover:text-white text-[16px] ">{title}</h1>
