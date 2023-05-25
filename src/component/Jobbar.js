@@ -5,12 +5,12 @@ import Data from "./Data";
 export const Jobbar = () => {
   return (
     <div>
-      <div className="flex flex-wrap py-10 items-center gap-10 justify-center ">
+      <div className="flex flex-wrap py-10 items-center gap-10 justify-center">
         {Data.map(({ id, image, time, location, desc, company, title }) => {
           return (
             <div
               key={id}
-              className="w-64 p-5 bg-white rounded-[10px] hover:bg-[#2a68ff] shadow-lg shadow-[#f1f4f8]-700 hover:shadow-lg"
+              className="w-64 p-5 bg-white rounded-[10px] hover:bg-[#2a68ff] shadow-lg shadow-[#f1f4f8]-700 hover:shadow-lg group"
             >
               <span className="flex justify-between gap-4 items-center">
                 <h1 className="font-semibold text-[#252b36] group-hover:text-white text-[16px] ">{title}</h1>
