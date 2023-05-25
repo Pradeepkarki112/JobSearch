@@ -34,7 +34,7 @@ const Data =[{
 
     id:3,
     image:Logo3,
-    title:"SOftware Eng",
+    title:"Software Eng",
     time:'10Hrs',
     location:"Austria",
     desc:"Lorem ipsum dolor sit amet, consectetur adip consectetur adipisicing elit. Corrupti, laboriosam!",
