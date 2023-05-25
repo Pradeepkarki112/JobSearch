@@ -1,55 +1,62 @@
 import React from "react";
-import logo1 from "../Assets/logo(1).png"
-import logo2 from "../Assets/logo(2).png"
-import logo3 from "../Assets/logo(3).png"
+import logo1 from "../Assets/logo(1).png";
+import logo2 from "../Assets/logo(5).png";
+import logo3 from "../Assets/logo(6).png";
+import backgroundImage from "../Assets/back.jpg";
 
 const Service = () => {
   return (
-    <div>
-      <div className="font-semibold text-3xl w-96">
+    <div className="mx-10">
+      <div className="font-bold text-3xl w-1/3 pt-12">
         The value that holds us true and to account
       </div>
-      <div className="flex justify-between flex-wrap">
-        <div className="w-64 p-5">
-          <div className="flex gap-4 p-3">
-            <div className="">
-              <img src={logo1} alt="" className="w-[70%]"></img>
-            </div>
-            <span>Simplicity</span>
+      <div className="flex justify-between flex-wrap pt-10 ">
+        <div className="w-64 px-4 hover:bg-blue-200 rounded-lg py-2">
+          <div className="flex items-center">
+            <img src={logo1} alt="" className="w-[40%] h-[50%]"></img>
+            <span className="font-semibold">Simplicity</span>
           </div>
-          <div className="font-semibold text-lg text-[#252b36]">
+          <p className="font-thin text-xs text-[#252b36]">
             Things being made beautiful simple are at the heart of everything we
             do.
-          </div>
+          </p>
         </div>
 
-        <div className="w-64 p-5">
-          <div className="flex gap-4 p-3">
-          <div className="">
-              <img src={logo2} alt="" className="w-[70%]"></img>
-            </div>
-            <span>Social Good</span>
+        <div className="w-64 px-4 hover:bg-purple-200 rounded-lg py-2">
+          <div className="flex items-center">
+            <img src={logo2} alt="" className="w-[40%] h-[50%]"></img>
+            <span className="font-semibold">Social Good</span>
           </div>
-          <div>
-            We believe in making things better for everyone, even if just by a
-            bit!
-          </div>
+          <p className="font-thin text-xs text-[#252b36]">
+            We believe in making things better for everyone.
+          </p>
         </div>
 
-        <div className="w-64 p-5">
-          <div className="flex gap-4 p-3">
-          <div className="">
-              <img src={logo3} alt="" className="w-[70%]"></img>
-            </div>
-            <span>Trust</span>
-            </div>
-            <div>
-            We work on the basis of creating trust which can be nurtured through
-            authenicity and transparency.
+        <div className="w-64 px-4 hover:bg-yellow-200 rounded-lg py-2">
+          <div className="flex items-center">
+            <img src={logo3} alt="" className="w-[40%] h-[50%]"></img>
+            <span className="font-semibold">Trust</span>
           </div>
+          <p className="font-thin text-xs text-[#252b36]">
+            We work on the basis of creating trust which can be nurtured.
+          </p>
         </div>
       </div>
-      <div className="pt-20">Ready to switch carrer</div>
+
+      <div
+        className="mt-20 p-16 justify-between flex bg-cover bg-center"
+        style={{ backgroundImage: `url(${backgroundImage})` }}
+      >
+        <div>
+          <div className="text-blue-500 text-3xl font-bold">
+            Ready to switch carrer?
+          </div>
+          <div className="font-bold text-2xl ">Let's get started!</div>
+        </div>
+        <button className="py-4 px-10 rounded-lg border border-blue-500 hover:bg-blue-300 text-blue-500">
+          Get started
+        </button>
+      </div>
     </div>
   );
 };
