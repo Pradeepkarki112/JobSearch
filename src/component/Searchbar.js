@@ -73,6 +73,8 @@ export const Searchbar = () => {
             <option value="">Advocate</option>
           </select>
         </div>
+
+        <span className=" cursor-pointer text-[#a1a1a1] " >Clear All</span>
       </div>
     </div>
   );
