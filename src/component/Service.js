@@ -44,7 +44,7 @@ const Service = () => {
       </div>
 
       <div
-        className="mt-20 p-16 justify-between flex bg-cover bg-center"
+        className="mt-20 p-16 rounded-xl justify-between flex bg-cover bg-center"
         style={{ backgroundImage: `url(${backgroundImage})` }}
       >
         <div>
