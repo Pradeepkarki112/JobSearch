@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Pradeepkarki112/JobSearch.git/static/css/main.d85e2c5d.css",
+    "main.js": "/Pradeepkarki112/JobSearch.git/static/js/main.13361071.js",
+    "static/media/back.jpg": "/Pradeepkarki112/JobSearch.git/static/media/back.c46992305a08347fcb06.jpg",
+    "static/media/logo(8).png": "/Pradeepkarki112/JobSearch.git/static/media/logo(8).6922e69cf7eca9fe1101.png",
+    "index.html": "/Pradeepkarki112/JobSearch.git/index.html",
+    "main.d85e2c5d.css.map": "/Pradeepkarki112/JobSearch.git/static/css/main.d85e2c5d.css.map",
+    "main.13361071.js.map": "/Pradeepkarki112/JobSearch.git/static/js/main.13361071.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d85e2c5d.css",
+    "static/js/main.13361071.js"
+  ]
+}
